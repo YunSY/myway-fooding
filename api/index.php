@@ -1,7 +1,7 @@
 ﻿<?php
-chdir('..');
-include_once '../src/Epi.php';
-Epi::setPath('base', '../src');
+//chdir('..');	
+include_once './src/Epi.php';
+Epi::setPath('base', './src');
 Epi::init('api');
 
 //라우팅 : 경로 추가
