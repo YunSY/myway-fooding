@@ -1,6 +1,6 @@
 ﻿<?php
 //chdir('..');
-include_once '../src/Epi.php';
+include_once './src/Epi.php';
 Epi::setPath('base', './src');
 Epi::init('api');
 
