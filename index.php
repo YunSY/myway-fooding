@@ -32,7 +32,7 @@ function showEndpoints()
 }
 
 function showVersion(){
-	return 403;
+	echo 403;
 }
 
 
