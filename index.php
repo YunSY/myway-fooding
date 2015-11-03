@@ -25,7 +25,7 @@ function showEndpoints()
 			  <li><a href="/">/</a> -> (home)</li>
 			  <li><a href="/version">/version</a> -> (print the version of the api)</li>
 			  <li><a href="/users">/users</a> -> (print each user)</li>
-			  <li><a href="/users/javascript">/users/javascript</a> -> (make an ajax call to the users.json api)</li>
+			  
         </ul>';
 }
 
