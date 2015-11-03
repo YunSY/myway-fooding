@@ -40,7 +40,7 @@ function showUsers(){
 		array('name' => "이연재"),
 		array('name' => "주현지"),
 		array('name' => "윤서영")
-	)
+	);
 }
 
 ?>
