@@ -6,6 +6,8 @@ Epi::init('api');
 
 //라우팅 : 경로 추가
 getRoute()->get('/', 'showEndpoints');	//시작점(말단)
+getRoute()->get('/version', 'showVersion');
+getRoute()->get('/users', 'showUsers');
 
 /*
  * ******************************************************************************************
@@ -27,6 +29,10 @@ function showEndpoints()
 			  <li><a href="/users">/users</a> -> (print each user)</li>
 			  
         </ul>';
+}
+
+function showVersion(){
+	return 403;
 }
 
 
